@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -13,16 +14,18 @@ a {
 }
 
 .navbar {
+
 }
 
 .nav-list {
   display: flex;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .nav-item {
-  list-style: none;
+  list-style: decimal-leading-zero;
+  background-color: black;
 }
 
 .nav-item:hover {
@@ -37,22 +40,21 @@ a {
 
 .main-div {
   text-align: center;
-  background-image: url("WhatsApp\ Image\ 2021-04-08\ at\ 11.27.29\ PM.jpeg");
+  background-image: url("html..jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .space {
   padding-top: 2rem;
-  padding-bottom: 20rem;
+  padding-bottom: 40rem;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
   font-style: italic;
-  font-size: 6mm;
+  font-size: 5mm;
 }
 .paragraph {
   color: rgb(238, 228, 228);
   font-size: 20px;
   font-style: italic;
-}
