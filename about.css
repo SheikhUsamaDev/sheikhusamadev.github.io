@@ -1,0 +1,17 @@
+.style{
+ text-align: center;
+ font-size: 6mm;
+ font-style: italic;
+ background-color: rgb(240, 210, 210);
+
+ background-size: cover;
+}
+.paragraph{
+    text-align: left;
+    font-size: 6mm;
+    font-style: italic;
+}
+
+  @media screen and (max-width: 768px){
+    
+}
