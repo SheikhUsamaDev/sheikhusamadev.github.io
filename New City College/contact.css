@@ -1,15 +1,24 @@
 .table {
+   text-align: center;  
     font-family: arial, sans-serif;
-    border-collapse: collapse;
+    border-collapse: separate;
     width: 100%;
   }
   
   td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
+    
+    border: 5px solid #e0dada;
+    
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    
+    background-color: #aca9a9;
   }
+.background{
+  background-color: rgb(116, 114, 114);
+  text-align: left;
+  background-size: cover;
+  
+}
