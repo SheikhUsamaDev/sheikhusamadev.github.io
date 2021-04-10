@@ -1,17 +1,41 @@
-.style{
- text-align: center;
- font-size: 6mm;
- font-style: italic;
- background-color: rgb(109, 191, 230);
-
- background-size: cover;
-}
-.paragraph{
-    text-align: left;
-    font-size: 6mm;
-    font-style: italic;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-  @media screen and (max-width: 768px){
-    
+body {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.style {
+  text-align: center;
+  font-size: 6mm;
+  font-style: italic;
+  background-color: rgb(109, 191, 230);
+
+  background-size: cover;
+}
+.paragraph {
+  text-align: left;
+  font-size: 6mm;
+  font-style: italic;
+  padding: 0.8rem;
+}
+
+.img-slider {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 500px) {
+  img {
+    width: 100%;
+  }
 }
