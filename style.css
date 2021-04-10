@@ -58,3 +58,11 @@ a {
   color: rgb(238, 228, 228);
   font-size: 20px;
   font-style: italic;
+}
+
+
+@media screen and (max-width: 480px){
+  .paragraph {
+    font-size: 18px;
+  }
+}
