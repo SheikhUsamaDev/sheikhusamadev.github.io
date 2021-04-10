@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }  
+  
+  .home-style{
+    text-align: center;
+    font-size: 6mm;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .para{
+      font-size: 6mm;
+     color: aliceblue; 
+    }
+    .text-style{
+      color: aliceblue;
+      
+    }
