@@ -221,3 +221,45 @@ html{
     cursor: pointer;
     box-shadow: 0 0 10px white;
 }    
+
+
+.hidden {
+    display: none !important;
+}
+
+
+.burger-menu {
+
+}
+
+
+.burger-line {
+    background: black;
+    width: 2rem;
+    height: 0.4rem;
+    margin: 0.2rem;
+}
+
+
+
+
+@media screen and (max-width: 760px){
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+}
+
+@media screen and (max-width: 600px){
+    .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+
+
+      .hidden {
+          display: block;
+      }
+}
+
