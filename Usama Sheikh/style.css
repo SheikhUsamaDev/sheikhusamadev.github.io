@@ -1,6 +1,6 @@
 *{
-    margin: 0cm;
-    padding: 0cm;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 
 }
@@ -12,7 +12,7 @@ html{
     display: flex;  
     justify-content: center;
     align-items: center;
-    background-color: dimgray;
+    background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
     
@@ -37,12 +37,12 @@ html{
 .navbar ul li a:hover{
     background-color: white;
     color: black;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 10px white;
 
 } 
 
 
-/*home section*/
+/*home section*/ 
 #home{
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ html{
         position: absolute;
         top: 0;
         right: 0;
-        background: url('img3.jpeg') no-repeat center center/cover;
+        background: url('img.jpg') no-repeat center center/cover;
         height: 900px;
         width: 100%;
         z-index: -1;
@@ -98,15 +98,14 @@ html{
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
-        padding: 20px;
+        padding: 2 0px;
         margin: 50px; 
-    }
+        }
     #pic{
         display: flex;
-        flex-direction: column;
     }
     #pic img{
-        width: 575px;
+        width: 375px;
         height: 300px;
     }
     #intro{
@@ -147,33 +146,32 @@ html{
     padding: 20px;
 }
 .row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
   }
-  .box {
+  .box{
     display: flex;
     flex-direction: column;
-  
+     width: 350px;
+     height: 450px;
     border: 1px solid black;
     margin: 10px;
     align-items: center;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top rgb(255, 45, 45));
+    background: linear-gradient(to top rgb(255, 45, 45) 50%, white 50%);
     background-size: 100% 200%;
-    transition: all 0.8s;
+    transition: all .8s;
   }
-
-
-.box:hover{
+  .box:hover{
     background-position: left bottom;
-    color: white;
+
     border: none;
     box-shadow: 0 0 20px rgb(255,45,45);
-}
-
-
+  }
 .box img{
     width: 80px;
     height: 80px;
