@@ -1,12 +1,10 @@
-const burger = document.querySelector(".burger-menu")
-const navbar = document.querySelector(".nav-menu")
+const burger = document.querySelector(".burger-menu");
+const navbar = document.querySelector(".nav-menu");
+const main = document.querySelector(".main");
 
-
-function toggleMenu(){
-    burger.classList.toggle('hidden');
-    navbar.classList.toggle('hidden');
+function toggleMenu() {
+  navbar.classList.toggle("nav-active");
+  main.classList.toggle("hidden");
 }
 
-
-
-burger.addEventListener('click', toggleMenu);
+burger.addEventListener("click", toggleMenu);
